@@ -6,6 +6,15 @@ da 0 a 2000px
   .container {
     width: 100%;
   }
+
+  section.container {
+    padding: 0 10px;
+  }
+
+  .col,
+  .col2 {
+    height: 520px;
+  }
 }
 
 /* 

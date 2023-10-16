@@ -13,24 +13,59 @@ DEBUG
 
 /*
 ******** 
+COMMON
+********
+*/
+.menu,
+.logo {
+  padding: 20px;
+}
+.container {
+  max-width: 1160px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.col,
+.col2 {
+  background-color: #b5ddff;
+}
+
+.radius {
+  border-radius: 10px;
+}
+
+/*
+******** 
 HEADER
 ********
 */
 header {
   background-color: #0084fd;
+  padding: 20px;
 }
 
 nav {
-  margin: auto;
-  display: flex;
   justify-content: space-between;
 }
 
-nav.container {
-  max-width: 1160px;
+/*
+******** 
+MAIN
+********
+*/
+
+section.container {
+  margin: 50px auto;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.col {
+  height: 340px;
+  width: 65%;
 }
 
-.menu,
-.logo {
-  padding: 20px;
+.col2 {
+  width: calc(100% / 3 - 20px);
+  height: 340px;
 }
