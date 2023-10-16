@@ -1,0 +1,36 @@
+@import url(media-query.css);
+@import url(reset.css);
+/*
+******** 
+DEBUG
+********
+*/
+
+.debug .menu,
+.debug .logo {
+  background-color: aquamarine;
+}
+
+/*
+******** 
+HEADER
+********
+*/
+header {
+  background-color: #0084fd;
+}
+
+nav {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav.container {
+  max-width: 1160px;
+}
+
+.menu,
+.logo {
+  padding: 20px;
+}
