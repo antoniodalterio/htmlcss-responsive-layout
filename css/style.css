@@ -1,5 +1,5 @@
-@import url(media-query.css);
 @import url(reset.css);
+
 /*
 ******** 
 DEBUG
@@ -55,7 +55,8 @@ MAIN
 ********
 */
 
-section.container {
+section.container,
+.raw {
   margin: 50px auto;
   flex-wrap: wrap;
   gap: 20px;
@@ -68,4 +69,19 @@ section.container {
 .col2 {
   width: calc(100% / 3 - 20px);
   height: 340px;
+}
+
+/* sezione 2  */
+
+.box {
+  background-color: #9792e4;
+  padding: 20px;
+}
+
+.raw {
+  justify-content: center;
+}
+
+.raw > * {
+  width: calc(100% / 2 - 40px);
 }

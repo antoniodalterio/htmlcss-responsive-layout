@@ -13,7 +13,29 @@ da 0 a 2000px
 
   .col,
   .col2 {
-    height: 520px;
+    height: 340px;
+  }
+}
+
+/* 
+da 0 a 768px
+*/
+@media screen and (max-width: 760px) {
+  .container {
+    width: 100%;
+  }
+
+  .col,
+  .col2 {
+    height: 420px;
+  }
+
+  .raw {
+    display: block;
+  }
+  .raw > * {
+    width: 100%;
+    margin-bottom: 30px;
   }
 }
 
@@ -23,6 +45,28 @@ da 0 a 480px
 
 @media screen and (max-width: 480px) {
   .container {
+    width: 100%;
+  }
+  section.container {
+    display: block;
+  }
+  .col {
+    width: 100%;
+    /* debug */
+    height: 600px;
+  }
+  .col2 {
+    margin-top: 30px;
+    /* debug */
+    width: 100%;
+  }
+
+  /* sezione 2 */
+
+  .raw {
+    display: block;
+  }
+  .raw > * {
     width: 100%;
   }
 }
