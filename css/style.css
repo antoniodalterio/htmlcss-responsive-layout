@@ -132,3 +132,19 @@ section.container,
   height: 600px;
   background-color: #b5ddff;
 }
+
+/*
+******** 
+FOOTER
+********
+*/
+
+footer {
+  background-color: #333333;
+  padding: 50px 20px;
+}
+
+footer .container {
+  height: 400px;
+  background-color: white;
+}
