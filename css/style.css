@@ -119,3 +119,16 @@ section.container,
 .raw-benefit .col {
   max-width: calc(100% / 3 - 20px);
 }
+
+/* section 5 */
+
+.quote {
+  background-color: white;
+}
+
+/* section 6*/
+
+.start .raw {
+  height: 600px;
+  background-color: #b5ddff;
+}
