@@ -7,10 +7,6 @@ da 0 a 2000px
     width: 100%;
   }
 
-  section.container {
-    padding: 0 10px;
-  }
-
   .col,
   .col2 {
     height: 340px;
@@ -20,9 +16,10 @@ da 0 a 2000px
 /* 
 da 0 a 768px
 */
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 768px) {
   .container {
     width: 100%;
+    padding: 10px;
   }
 
   .col,
@@ -36,6 +33,20 @@ da 0 a 768px
   .raw > * {
     width: 100%;
     margin-bottom: 30px;
+  }
+  /* sezione 3 */
+
+  .info > * {
+    height: 230px;
+  }
+
+  /* sezione 4 */
+  .raw-benefit {
+    padding: 20px;
+  }
+
+  .raw-benefit .col {
+    max-width: calc(100% / 2 - 40px);
   }
 }
 
@@ -68,5 +79,27 @@ da 0 a 480px
   }
   .raw > * {
     width: 100%;
+  }
+
+  /* sezione 3 */
+
+  .info .col-text,
+  .info .col2 {
+    height: 500px;
+    margin: 30px auto;
+  }
+
+  /* sezione 4  */
+  .benefit {
+    margin-top: 70px;
+  }
+
+  .raw-benefit {
+    padding: 20px;
+  }
+
+  .raw-benefit .col {
+    max-width: 100%;
+    margin-bottom: 20px;
   }
 }
