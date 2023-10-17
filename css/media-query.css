@@ -70,6 +70,13 @@ da 0 a 992px
     width: 30%;
     padding: 0;
   }
+
+  /* sezione 6 */
+
+  .free .container {
+    width: 100%;
+    padding: 50px 0;
+  }
 }
 
 /* 
@@ -157,5 +164,12 @@ da 0 a 768px
 
   .about .col2 {
     width: 60%;
+  }
+
+  /* sezione 6 */
+
+  .free .container {
+    width: 100%;
+    padding: 50px 0;
   }
 }

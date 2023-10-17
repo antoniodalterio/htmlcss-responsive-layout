@@ -355,3 +355,44 @@ blockquote {
 .btn > i {
   margin-right: 10px;
 }
+
+/* sezione 6 */
+.free {
+  background-color: #9792e4;
+}
+
+.free .container {
+  text-align: center;
+  color: white;
+  padding: 3.125rem 15.625rem;
+}
+
+.free .parte1 p {
+  font-size: 1.125rem;
+  color: #cbc9f1;
+}
+.free .parte2 p {
+  padding: 3.125rem 3.125rem;
+}
+
+.free h3 {
+  font-size: 3rem;
+  color: inherit;
+}
+
+.free h2 {
+  font-size: 6rem;
+  color: #fdc15f;
+  margin-top: 3.125rem;
+}
+
+.free .btn {
+  color: #9792e4;
+  padding: 20px 70px;
+  font-size: 18px;
+  border-radius: 30px;
+}
+
+.free a {
+  color: white;
+}
