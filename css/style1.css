@@ -361,7 +361,8 @@ blockquote {
   background-color: #9792e4;
 }
 
-.free .container {
+.free .container,
+footer .container {
   text-align: center;
   color: white;
   padding: 3.125rem 15.625rem;
@@ -395,4 +396,23 @@ blockquote {
 
 .free a {
   color: white;
+}
+
+/* 
+FOOTER
+*/
+
+footer {
+  background-color: #333333;
+}
+footer .container {
+  padding-top: 0;
+}
+
+footer p {
+  padding: 50px 120px 0;
+}
+
+footer a {
+  color: #9792e4;
 }

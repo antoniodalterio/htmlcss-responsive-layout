@@ -1,4 +1,21 @@
 /* 
+da 0 a 1200px
+ */
+@media screen and (min-width: 992px) {
+  .container {
+    width: 100%;
+  }
+
+  .desck {
+    display: block;
+  }
+
+  .link ul {
+    display: flex;
+  }
+}
+
+/* 
 da 0 a 992px
  */
 
@@ -12,6 +29,10 @@ da 0 a 992px
 
   .hamb {
     display: block;
+  }
+
+  .col .contenuto {
+    margin: 0;
   }
 
   .contenuto {
@@ -76,6 +97,16 @@ da 0 a 992px
   .free .container {
     width: 100%;
     padding: 50px 0;
+  }
+
+  /* footer */
+  footer .container {
+    padding: 0;
+    width: 100%;
+  }
+
+  footer p {
+    padding: 30px 30px;
   }
 }
 
@@ -171,5 +202,15 @@ da 0 a 768px
   .free .container {
     width: 100%;
     padding: 50px 0;
+  }
+
+  /* footer */
+  footer .container {
+    padding: 0;
+    width: 100%;
+  }
+
+  footer p {
+    padding: 30px 30px;
   }
 }
