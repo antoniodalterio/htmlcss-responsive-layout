@@ -45,6 +45,12 @@ da 0 a 992px
     width: 100%;
     padding-left: 25%;
   }
+
+  /* sezione 4 */
+
+  .benefit .col {
+    width: calc(100% / 2);
+  }
 }
 
 /* 
@@ -71,6 +77,16 @@ da 0 a 992px
     width: 100%;
   }
   .img-marketing {
+    width: 100%;
+  }
+
+  /* sezione 4 */
+
+  .benefit .raw {
+    display: block;
+  }
+
+  .benefit .col {
     width: 100%;
   }
 }

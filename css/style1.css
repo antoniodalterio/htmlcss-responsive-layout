@@ -241,9 +241,54 @@ Sezione 3
 .quote {
   padding: 50px;
   color: white;
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 blockquote {
-  margin-top: 20px;
+  margin-top: 1.25rem;
+}
+
+/* section 4 */
+.benefit h2 {
+  font-size: 3rem;
+  color: white;
+  text-align: center;
+}
+
+.benefit .col {
+  width: calc(100% / 3);
+}
+
+.benefit .contenuto {
+  background-color: white;
+}
+
+.benefit-text h3,
+.benefit-text h4,
+.benefit-text p {
+  color: #9792e4;
+  margin: 0 0 0.9375rem;
+}
+
+.benefit-text h3 {
+  font-size: 4.875rem;
+}
+
+.benefit-text h4 {
+  font-size: 1.5rem;
+}
+
+.benefit-text p {
+  color: #5a6e7f;
+  padding-right: 1.25rem;
+}
+
+.benefit {
+  background-color: #9792e4;
+  padding: 50px 0;
+}
+
+.benefit .btn {
+  background-color: #9792e4;
+  margin: 20px 0;
 }
