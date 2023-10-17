@@ -21,6 +21,19 @@ da 0 a 992px
     width: 100%;
     display: block;
   }
+
+  /* sezione 2 */
+
+  /* sezione 2 */
+  .planning .raw {
+    display: block;
+    padding: 0;
+  }
+
+  .planning .col2 {
+    width: 100%;
+    margin: 0;
+  }
 }
 
 /* 
@@ -49,4 +62,4 @@ da 0 a 992px
   .img-marketing {
     width: 100%;
   }
-}
+z}
