@@ -197,3 +197,53 @@ main .raw {
   background-color: #9792e4;
   margin: 40px 0 20px;
 }
+
+/* 
+Sezione 3
+*/
+
+.info {
+  padding: 50px 125px;
+}
+
+.info .text {
+  text-align: center;
+  line-height: 50px;
+}
+
+.info h2 {
+  font-size: 48px;
+  color: #9792e4;
+  margin-bottom: 50px;
+}
+
+.descrizione {
+  padding: 0px 6.25rem;
+  line-height: 1.2;
+}
+
+.testimonial {
+  margin-top: 50px;
+  width: 100%;
+  background-color: #9792e4;
+  padding: 20px 20px;
+  border-radius: 50px;
+  align-items: center;
+}
+
+.testimonial img {
+  width: 190px;
+  height: 200px;
+  display: block;
+  border-radius: 50%;
+}
+
+.quote {
+  padding: 50px;
+  color: white;
+  font-size: 20px;
+}
+
+blockquote {
+  margin-top: 20px;
+}
