@@ -4,89 +4,139 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Responsive Layout</title>
+    <!-- GOOGLE AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- GOOGLE AWESOME-->
+
+    <!-- GOOGLE FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- GOOGLE FONT -->
 
     <!-- MY CSS -->
-    <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/media-query.css" />
+    <link rel="stylesheet" href="css/style1.css" />
     <link rel="stylesheet" href="css/reset.css" />
     <!-- MY CSS -->
   </head>
+
   <body>
-    <!-- Parte HEADER -->
+    <!-- Header -->
+    <header>
+      <div class="container flex">
+        <div class="logo"><img src="img/logo.png" alt="logo" /></div>
+        <div class="link">
+          <ul class="flex desck">
+            <li>Planning</li>
+            <li>Planning</li>
+            <li>Planning</li>
+            <li>Planning</li>
+            <li><button class="btn">Get Started</button></li>
+          </ul>
+          <div class="hamb"><i class="fa-solid fa-bars"></i></div>
+        </div>
+      </div>
+    </header>
+    <!-- Header -->
+
+    <!-- Parte Main-->
+
+    <!--     
     <header class="debug">
-      <!-- CONTENITORE LOGO E MENU -->
+  
       <nav class="container flex">
         <div class="logo">logo</div>
         <ul>
           <li class="menu">navbar</li>
         </ul>
       </nav>
-      <!-- CONTENITORE LOGO E MENU -->
+    
     </header>
-    <!-- Parte HEADER -->
-    <!-- Parte MAIN -->
     <main>
-      <section class="container flex">
-        <div class="col radius">testo img</div>
-        <div class="col2 radius">testo img</div>
-        <div class="col2 radius">testo img</div>
-        <div class="col2 radius">testo img</div>
-        <div class="col2 radius">testo img</div>
+      <section>
+        <div class="container">
+          <div class="raw flex">
+            <div class="col radius">testo img</div>
+            <div class="col2 radius">testo img</div>
+            <div class="col2 radius">testo img</div>
+            <div class="col2 radius">testo img</div>
+            <div class="col2 radius">testo img</div>
+          </div>
+        </div>
       </section>
-      <!-- SEZIONE 2 -->
-      <section class="box">
-        <div class="raw container flex">
+   
+      <section class="">
+        <div class="container">
+          <div class="raw  flex">
+            <div class="col2 radius">testo img</div>
+            <div class="col2 radius">testo img</div>
+          </div>
+        </div>
+      </section>
+   
+      <section class=" info">
+        <div class="container">
+          <div class="col-text">
+            <h2>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
+              numquam incidunt pariatur, officia eos nemo. Excepturi voluptatibus
+              optio modi magnam. Esse eaque similique, possimus repudiandae
+              laudantium in saepe blanditiis id!
+            </h2>
+          </div>
+          
+          <div class="col2 radius">testo img</div>
+          <div class="col2 radius">testo img</div>
+          <div class="col2 radius">testo img</div>
+         
+        </div>
+      </section>
+   
+      <section class="benefit">
+        <div><h2 class="benefit">lorem lorwem lorem lorem</h2></div>
+        <div class="container">
+          <div class="raw flex">
+            <div class="col2 radius">testo img</div>
+            <div class="col2 radius">testo img</div>
+            <div class="col2 radius">testo img</div>
+            <div class="col2 radius">testo img</div>
+            <div class="col2 radius">testo img</div>
+            <div class="col2 radius">testo img</div>
+          </div>
+        </div>
+      </section>
+
+      <section class=" quote">
+        <div class="container">
+          <div class="raw flex">
           <div class="col radius">testo img</div>
           <div class="col2 radius">testo img</div>
+          
         </div>
       </section>
-      <!-- SEZIONE 2 -->
-      <!-- SEZIONE 3 -->
-      <section class="container info">
-        <div class="col-text">
-          <h2>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
-            numquam incidunt pariatur, officia eos nemo. Excepturi voluptatibus
-            optio modi magnam. Esse eaque similique, possimus repudiandae
-            laudantium in saepe blanditiis id!
-          </h2>
-        </div>
-        <div class="col2 radius"><div class="circle"></div></div>
-        <div class="col2 radius">testo img</div>
-        <div class="col2 radius">testo img</div>
-      </section>
-      <!-- SEZIONE 3 -->
-
-      <!-- SEZIONE 4 -->
-      <div><h2 class="benefit">lorem lorwem lorem lorem</h2></div>
-      <section class="container raw-benefit flex">
-        <div class="col radius">testo img</div>
-        <div class="col radius">testo img</div>
-        <div class="col radius">testo img</div>
-        <div class="col radius">testo img</div>
-        <div class="col radius">testo img</div>
-        <div class="col radius">testo img</div>
-      </section>
-
-      <!-- SEZIONE 5 -->
-      <section class="box quote">
-        <div class="raw container flex">
-          <div class="col radius">testo img</div>
-          <div class="col2 radius">testo img</div>
-        </div>
-      </section>
-      <!-- SEZIONE 5 -->
-
-      <!-- SEZIONE 6 -->
+     
       <section class="box start">
-        <div class="raw container">
+        <div class="container"></div>
+        <div class="raw">
       </section>
-      <!-- SEZIONE 6 -->
+     
     </main>
-
     <footer>
       <div class="container">
+        <div class="col"></div>
       </div>
     </footer>
+   -->
   </body>
 </html>

@@ -1,0 +1,46 @@
+/* 
+COMMON
+*/
+
+.flex {
+  display: flex;
+}
+.container {
+  max-width: 1140px;
+  padding: 0 1.875rem;
+  margin: 0 auto;
+}
+
+.btn {
+  padding: 0.625rem 0.625rem;
+  background-color: white;
+  border-radius: 20px;
+}
+
+/* 
+HEADER
+*/
+
+header {
+  background-color: #0084fd;
+}
+
+header .container.flex {
+  justify-content: space-between;
+}
+
+.logo {
+  padding: 10px;
+}
+
+ul.flex {
+  height: 100%;
+  align-items: center;
+  gap: 30px;
+  color: white;
+}
+
+.hamb {
+  display: none;
+  color: white;
+}

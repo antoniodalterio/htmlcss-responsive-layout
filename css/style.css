@@ -23,8 +23,8 @@ COMMON
   display: flex;
 }
 .container {
-  max-width: 1160px;
   margin: 0 auto;
+  padding: 0 1.875rem;
 }
 
 .col,
@@ -43,7 +43,7 @@ HEADER
 */
 header {
   background-color: #0084fd;
-  padding: 20px;
+  padding: 10px;
 }
 
 nav {
@@ -58,18 +58,26 @@ MAIN
 
 section.container,
 .raw {
-  margin: 50px auto;
+  margin: 0 auto;
   flex-wrap: wrap;
-  gap: 20px;
 }
+
+section.container .raw {
+  margin: 0;
+}
+
 .col {
   height: 340px;
-  width: 65%;
+  width: calc((100% / 3) * 2 - 2.5rem);
+  padding: 30px;
+  margin: 20px;
 }
 
 .col2 {
-  width: calc(100% / 3 - 20px);
+  width: calc(100% / 3 - 40px);
   height: 340px;
+  padding: 30px;
+  margin: 20px;
 }
 
 /* sezione 2  */
@@ -79,12 +87,14 @@ section.container,
   padding: 20px;
 }
 
-.raw {
-  justify-content: center;
+.box .raw {
+  padding: 0px 130px 0 125px;
 }
 
-.raw > * {
-  width: calc(100% / 2 - 40px);
+.box .raw .col2 {
+  width: calc(100% / 2 - 20px);
+  padding: 20px;
+  margin: 10px;
 }
 
 /* sezione 3 */
@@ -107,23 +117,43 @@ section.container,
 }
 
 /* sezione 4 */
-.raw-benefit {
-  justify-content: center;
-  margin-top: 50px;
+
+section.benefit {
+  background-color: #9792e4;
+  padding: 20px;
+}
+.benefit .container {
+  padding: 0;
 }
 
 .benefit {
   text-align: center;
 }
 
-.raw-benefit .col {
-  max-width: calc(100% / 3 - 20px);
+.benefit .raw .col2 {
+  width: calc(100% / 3 - 20px);
+  margin: 10px;
 }
 
 /* section 5 */
 
 .quote {
   background-color: white;
+}
+
+.quote .raw {
+  flex-wrap: nowrap;
+  gap: 10px;
+}
+
+.quote .col {
+  width: 80%;
+  margin: 0;
+}
+
+.quote .raw .col2 {
+  width: 20%;
+  margin: 0;
 }
 
 /* section 6*/
@@ -143,8 +173,7 @@ footer {
   background-color: #333333;
   padding: 50px 20px;
 }
-
-footer .container {
-  height: 400px;
-  background-color: white;
+div .col {
+  height: 200px;
+  color: white;
 }
