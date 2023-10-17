@@ -14,7 +14,14 @@ COMMON
 .btn {
   padding: 0.625rem 0.625rem;
   background-color: white;
-  border-radius: 20px;
+  border-radius: 1.25rem;
+}
+
+h2,
+h3,
+h4 {
+  color: #0084fd;
+  font-size: 1.5rem;
 }
 
 /* 
@@ -43,4 +50,78 @@ ul.flex {
 .hamb {
   display: none;
   color: white;
+}
+
+/* 
+MAIN
+*/
+main .raw {
+  flex-wrap: wrap;
+  margin: 50px 0;
+}
+.col,
+.col-section {
+  width: calc(100% / 3);
+  /* debug */
+
+  margin-top: 20px;
+  padding: 0 20px 0 25px;
+}
+
+.col-section {
+  width: calc((100% / 3) * 2);
+}
+
+.col .contenuto {
+  border-radius: 10px;
+  height: 100%;
+  background-color: #b5ddff;
+  margin: 0 -15px;
+  padding: 20px 20px 0;
+}
+
+.marketing-info h2,
+.marketing-info p {
+  margin-bottom: 20px;
+}
+.centratura {
+  text-align: center;
+}
+
+.marketing-info p {
+  line-height: 1.5625rem;
+  padding-right: 1.25rem;
+  color: #5a6e7f;
+}
+
+.marketing-info.col,
+.img-marketing.col {
+  width: calc(100% / 2);
+}
+
+.img-marketing.col {
+  padding-right: 5rem;
+  padding-top: 2.1875rem;
+}
+.img-marketing.col img {
+  width: 100%;
+  display: block;
+}
+
+.btn-app {
+  padding: 0.3125rem 3.125rem;
+  color: white;
+  background: #0084fd;
+  font-size: 1.125rem;
+  border-radius: 1.875rem;
+}
+
+.entity {
+  font-size: 3.75rem;
+  color: #0084fd;
+  text-align: center;
+}
+
+.centro {
+  text-align: center;
 }
