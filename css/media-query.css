@@ -6,12 +6,19 @@ da 0 a 992px
   .container {
     width: 100%;
   }
-
-  .desck {
-    display: none;
+  .raw {
+    width: 100%;
   }
 
-  .hamb {
+  .contenuto {
+    display: block;
+  }
+  .marketing-info.col {
+    width: 100%;
+    display: block;
+  }
+  .img-marketing.col {
+    width: 100%;
     display: block;
   }
 }
@@ -25,11 +32,21 @@ da 0 a 992px
     width: 100%;
   }
 
-  .desck {
-    display: none;
+  .raw.flex {
+    display: block;
   }
 
-  .hamb {
+  .col {
+    width: 100%;
+  }
+
+  .contenuto {
     display: block;
+  }
+  .marketing-info {
+    width: 100%;
+  }
+  .img-marketing {
+    width: 100%;
   }
 }
