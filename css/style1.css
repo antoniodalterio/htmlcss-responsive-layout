@@ -45,11 +45,17 @@ ul.flex {
   align-items: center;
   gap: 30px;
   color: white;
+  display: none;
 }
 
 .hamb {
   display: none;
   color: white;
+  font-size: 30px;
+}
+
+.link {
+  align-items: center;
 }
 
 /* 
@@ -291,4 +297,61 @@ blockquote {
 .benefit .btn {
   background-color: #9792e4;
   margin: 20px 0;
+}
+
+/* section 5 */
+.about .col {
+  width: 70%;
+}
+
+.about h2 {
+  font-size: 4.5rem;
+  color: #9792e4;
+  margin-bottom: 1.875rem;
+}
+
+.about .paragrafo1 {
+  margin-bottom: 4.375rem;
+  font-size: 1.25rem;
+  line-height: 40px;
+}
+
+.about .col2 {
+  width: 30%;
+  padding: 60px;
+}
+
+.about-img {
+  position: relative;
+  width: 100%;
+}
+.about img {
+  width: 100%;
+  border-radius: 50%;
+  display: block;
+}
+
+.about .entity {
+  font-size: 3.125rem;
+  color: #9792e4;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.about-descrizione {
+  font-size: 1.75rem;
+  color: #9792e4;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.about .btn {
+  background-color: #9792e4;
+  color: white;
+  margin: 40px 0;
+}
+
+.btn > i {
+  margin-right: 10px;
 }

@@ -10,6 +10,10 @@ da 0 a 992px
     width: 100%;
   }
 
+  .hamb {
+    display: block;
+  }
+
   .contenuto {
     display: block;
   }
@@ -51,15 +55,34 @@ da 0 a 992px
   .benefit .col {
     width: calc(100% / 2);
   }
+
+  /* sezione 5 */
+  .about .raw {
+    justify-content: space-between;
+  }
+
+  .about .col {
+    width: 60%;
+    margin: 0;
+  }
+
+  .about .col2 {
+    width: 30%;
+    padding: 0;
+  }
 }
 
 /* 
-da 0 a 992px
+da 0 a 768px
  */
 
 @media screen and (max-width: 768px) {
   .container {
     width: 100%;
+  }
+
+  header ul {
+    display: none;
   }
 
   .raw.flex {
@@ -80,6 +103,38 @@ da 0 a 992px
     width: 100%;
   }
 
+  /* sezione 2 */
+
+  .planning .container {
+    width: 100%;
+    padding: 0;
+  }
+
+  .planning .raw {
+    display: block;
+    padding: 0;
+  }
+
+  .planning .col2 {
+    width: 100%;
+    margin: 0;
+  }
+  /* sezione 3 */
+  section.info {
+    padding: 0;
+    margin-bottom: 3.125rem;
+  }
+  .testimonial {
+    display: block;
+    text-align: center;
+    -moz-text-align: center;
+  }
+
+  .testimonial-img {
+    width: 100%;
+    padding-left: 25%;
+  }
+
   /* sezione 4 */
 
   .benefit .raw {
@@ -88,5 +143,19 @@ da 0 a 992px
 
   .benefit .col {
     width: 100%;
+  }
+
+  /* sezione 5 */
+
+  .about .raw {
+    display: block;
+  }
+
+  .about .col {
+    width: 100%;
+  }
+
+  .about .col2 {
+    width: 60%;
   }
 }
